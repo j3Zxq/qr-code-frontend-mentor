@@ -28,7 +28,7 @@ body {
   min-height: 100vh;
 }
 
-main {
+.container {
   background-color: var(--white);
   padding: 20px;
   border-radius: 10px;
@@ -36,12 +36,12 @@ main {
   max-width: 320px;
 }
 
-main img {
+.container img {
   border-radius: 10px;
   margin-bottom: 15px;
 }
 
-main h1 {
+.container h1 {
   color: var(--dark-blue);
   text-align: center;
   margin-bottom: 15px;
@@ -51,7 +51,7 @@ main h1 {
   margin-right:15px;
 }
 
-main p {
+.container p {
   color: var(--grayish-blue);
   text-align: center;
   margin-bottom: 15px;
@@ -61,11 +61,11 @@ main p {
   margin-right:15px;
 }
 
-footer {
+.attribution {
   font-size: 14px;
   text-align: center;
 }
 
-footer a {
+.attribution a {
   color: hsl(228, 45%, 44%);
 }
